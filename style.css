@@ -50,9 +50,10 @@ body{
 }
 
 .fb input{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: 300px;
-    height: 25px;
+    height: 30px;
+    border: 2px solid black;
 }
 
 .fb .btn{
@@ -68,8 +69,25 @@ body{
 .btn:hover{
     color: white;
     background-color: magenta;
+    cursor: pointer;
 }
 
 .container video{
     max-width: 300px;
+}
+
+.button button{
+    text-decoration: none;
+    color: black;
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px 25px;
+    box-shadow: 0.5rem 1rem 3rem hs1(0, 0%, 0%, 0.3);  
+}
+
+button:hover{
+    color: white;
+    background-color: magenta;
+    cursor: pointer;
 }
